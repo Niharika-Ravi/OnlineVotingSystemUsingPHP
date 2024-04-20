@@ -1,0 +1,25 @@
+<?php
+    require_once("inc/header.php");
+    require_once("inc/navigation.php");
+    if(isset($_GET['homePage'])){
+        require_once("inc/homePage.php");   
+    }
+    if(isset($_GET['addElectionPage'])){
+        require_once("inc/addElection.php");
+    }
+    elseif(isset($_GET['addCandidatePage'])){
+        require_once("inc/addCandidate.php");
+    }
+    elseif(isset($_GET['viewResults'])){
+        require_once("inc/viewResults.php");
+    }
+    elseif(isset($_GET['editPanel'])){
+        require_once("inc/editPanel.php");
+    }
+    elseif(isset($_GET['CandidateEditPanel'])){
+        require_once("inc/CandidateEditPanel.php");
+    }
+?>
+<?php
+    require_once("inc/footer.php");
+?>

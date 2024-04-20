@@ -1,0 +1,22 @@
+.bg-black{background-color: #000}
+
+.bg-white{background-color: #fff;}
+.text-white{color:#fff}
+
+
+.bg-darkblue{background-color:  #BAE3F7;}
+.text-darkblue{color:#BAE3F7;}
+
+.candidate_photo{
+    width:80px;
+    height:80px;
+    border:1px solid #BAE3F7;
+    border-radius:100%;
+}
+
+.Profile_Preview{
+    width:200px;
+    height:200px;
+
+}
+
